@@ -816,7 +816,9 @@ header {
   background: #00c6d4;
 }
 footer {
-  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+ 
+      background: var(--bg-color);
+
   color: #ccc;
   padding: 70px 10% 20px;
   margin: 0;
@@ -1080,6 +1082,7 @@ footer {
     .info-card{
    
     }
+
 
 
 }
