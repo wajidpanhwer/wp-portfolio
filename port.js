@@ -8,7 +8,13 @@ menuBtn.addEventListener('click', () => {
   mobileNav.classList.add('active');
   overlay.classList.add('active');
 });
-
+// Fade out the preloader once the page is loaded
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+      setTimeout(() => {
+        preloader.classList.add('fade-out');
+      }, 2000); // wait 0.8s before fading out
+    });
 closeBtn.addEventListener('click', () => {
   mobileNav.classList.remove('active');
   overlay.classList.remove('active');
