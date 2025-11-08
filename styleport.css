@@ -345,8 +345,8 @@ header {
 }
 
 .connn img {
-    width: 355px;
-    height: 355px;
+       width: 380px;
+    height: 400px;
     border-radius: 50%;
     position: relative;
     z-index: 1;
@@ -451,8 +451,9 @@ header {
 }
 
 .about-img img {
-    width: 355px;
-    height: 355px;
+    width: 380px;
+    height: 400px;
+    background-size: cover;
     border-radius: 50%;
     position: relative;
     z-index: 1;
@@ -1044,8 +1045,8 @@ footer {
     }
 
     .connn img {
-        width: 300px;
-        height: 300px;
+        width: 340px;
+        height: 350px;
     }
 
     .hero-container > .btn {
@@ -1182,6 +1183,7 @@ footer {
 
 
 }
+
 
 
 
