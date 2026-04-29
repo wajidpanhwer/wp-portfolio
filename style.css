@@ -259,11 +259,7 @@ body:has(button:hover) .cursor-follower {
   display: block; width: 26px; height: 2px;
   background: var(--text-primary);
   border-radius: 2px;
-  transition: all 0.3s var(--ease);
 }
-.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.hamburger.open span:nth-child(2) { opacity: 0; }
-.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 /* ----------------------------------------------------------------
    6. GLASS UTILITY
@@ -464,10 +460,8 @@ body:has(button:hover) .cursor-follower {
 }
 .hero-img-placeholder i { font-size: 4rem; }
 .hero-img-placeholder span { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; }
-.hero-img-placeholder img{
-    background-size: cover;
-    background-position: center;
-}
+
+
 
 /* Floating badges */
 .float-badge {
@@ -739,6 +733,10 @@ body:has(button:hover) .cursor-follower {
 .project-img-wrap {
   height: 220px; position: relative; overflow: hidden;
 }
+.project-img-wrap img{
+height: 230px;
+
+}
 .project-img-placeholder { height: 100%; font-size: 4rem; }
 .project-overlay {
   position: absolute; inset: 0;
@@ -835,6 +833,9 @@ body:has(button:hover) .cursor-follower {
   border-radius: var(--radius); overflow: hidden;
   border: 1px solid var(--border-glass);
   transition: all 0.4s var(--ease);
+}
+.port-item img{
+  height: 250px;
 }
 .port-item:hover { transform: scale(1.03); box-shadow: var(--shadow-glow); }
 .port-item .port-img-placeholder { height: 100%; font-size: 3rem; }
